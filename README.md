@@ -53,23 +53,14 @@ The following is the procedure followed by the code for AccountScore:
     class CreditSafe
     {
 
-        /**
-        * @var string
-        */
         private $api_url = 'https://connect.creditsafe.com/v1/';
 
-        /**
-        * @var string
-        */
         private $language = 'en';
         private $template = 'full';
 
 
         private $unauthenticatedCount;
 
-        /**
-        * @var array
-        */
         private $header = array(
             'Accept: application/json',
             "cache-control: no-cache",
